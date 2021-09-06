@@ -56,7 +56,7 @@ type acct struct {
 
 func oldMain() {
 	fmt.Printf("acctcom\n")
-	fp, err := os.Open("/var/account/pacct")
+	fp, err := os.Open("/var/account/Pacct")
 	if err != nil {
 		panic(err)
 	}
