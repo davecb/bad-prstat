@@ -1,2 +1,4 @@
 # prstat
-Similar to process stats in Solaris
+
+A Linux subset of solaris prstat(1)
+See also dump-acct(1) and ls(1)
