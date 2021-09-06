@@ -54,7 +54,7 @@ type acct struct {
 	Comm     [ACCT_COMM]byte // Command name
 }
 
-func main() {
+func oldMain() {
 	fmt.Printf("acctcom\n")
 	fp, err := os.Open("/var/account/pacct")
 	if err != nil {
